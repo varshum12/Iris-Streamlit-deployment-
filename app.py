@@ -28,6 +28,6 @@ if button:
     st.subheader("prediction")
     st.subheader(f"Prediction : {pred}")
     st.subheader("probabilities")
-    st.subheader(prob)
+  
     st.dataframe(prob)
 
