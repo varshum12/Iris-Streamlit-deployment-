@@ -9,7 +9,9 @@ dependencies = [
     "matplotlib",
     "seaborn",
     "scikit-learn",
-    "streamlit"
+    "streamlit",
+    "ipykernel",
+    "joblib"
 ]
 
 def create_project_structure():

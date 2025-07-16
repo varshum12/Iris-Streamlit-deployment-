@@ -4,7 +4,7 @@ import pandas as pd
 from utils import predict_species
 import joblib
 
-model  =  joblib.load("/workspaces/Iris-Streamlit-deployment-/notebook/iris_model.joblib")
+model  =  joblib.load("notebook/iris_model.joblib")
 
 st.set_page_config(page_title= "Iris end to end project deployment" , layout  = 'wide')
 st.title("Iris Project Deployment")
